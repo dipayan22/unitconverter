@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <p class="top-txt"> Unit converter</p>
+    <div class="container">
+        <p>Lenth converter</p>
+        <div class="inputContainer">
+            <label for="feet">Feet</label>
+            <input type="number" name="" id="feet" oninput="convertToOther('feet',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="meter">Meters</label>
+            <input type="number" name="" id="meter" oninput="convertToOther('meter',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="inches">inches</label>
+            <input type="number" name="" id="inches" oninput="convertToOther('inche',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="cm">Centimeter</label>
+            <input type="number" name="" id="cm" oninput="convertToOther('cm',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="yards">Yards</label>
+            <input type="number" name="" id="yards" oninput="convertToOther('yard',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="km">Kilometer</label>
+            <input type="number" name="" id="km" oninput="convertToOther('km',this.value)">
+        </div>
+        <div class="inputContainer">
+            <label for="miles">Miles</label>
+            <input type="number" name="" id="miles" oninput="convertToOther('mile',this.value)">
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
